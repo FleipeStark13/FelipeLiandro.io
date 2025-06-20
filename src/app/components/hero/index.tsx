@@ -1,7 +1,7 @@
 import { Link } from "@deemlol/next-icons"
 import Image from "next/image"
-import profile from '../../../public/imgs/felipeLiandro.jpeg'
-import '../../styles/hero.css'
+import profile from '../../../../public/imgs/felipeLiandro.jpeg'
+import '../../../styles/hero.css'
 export function Hero () {
 
     return (

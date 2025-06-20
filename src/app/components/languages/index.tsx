@@ -2,7 +2,7 @@ import { LANGS_LIST } from "./langs";
 import { CellText } from "app/components/cell_text";
 import Image from "next/image";
 
-import '../../styles/languages.css'
+import '../../../styles/languages.css'
 
 import { Linkedin, Github, Code } from "@deemlol/next-icons";
 

@@ -3,7 +3,7 @@ import { useState } from "react";
 import { iProject } from "./handleProjects";
 import { Python_Projects, React_Projects, Database_Projects } from "./handleProjects";
 import React from "react";
-import '../../styles/projects.css'
+import '../../../styles/projects.css'
 import { ArrowLeft, ArrowRight } from "@deemlol/next-icons";
 
 export function Projects () {

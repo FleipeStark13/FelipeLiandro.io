@@ -1,5 +1,5 @@
 import { CellText } from "app/components/cell_text"
-import '../../styles/whoIs.css'
+import '../../../styles/whoIs.css'
 export function WhoIs () {
     return (
         <div id="whoIs">

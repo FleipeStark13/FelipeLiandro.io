@@ -1,4 +1,4 @@
-import '../../styles/cellText.css'
+import '../../../styles/cellText.css'
 
 export function CellText ({message}: { message: string }) {
     return (
