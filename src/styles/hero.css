@@ -1,0 +1,116 @@
+#hero .main-hero {
+    width: 100%;
+}
+
+#hero {
+    margin-top: 2em;
+}
+
+#hero .flex-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10em;
+}
+
+
+#hero .right-side-hero {
+    position: relative;
+}
+
+#hero .right-side-hero figure {
+    max-width: 420px;
+    width: 100%;
+    border-radius: 0 100px 0 100px;
+    border: 1px solid #626262;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+#image-hero {
+    border-radius: inherit;
+}
+
+#hero .left-side-hero h3 span {
+    color: #FB5050;
+}
+#hero .left-side-hero h3 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+}
+#hero .left-side-hero h1 {
+    font-size: 100px;
+    line-height: calc(100% - 10%);
+    color: #c0c0c0;
+    font-weight: 900;
+}
+
+#hero button {
+    background-color: #FB5050;
+    padding: 10px;
+    border-radius: 10px;
+    color: #262626;
+    font-weight: 600;
+    margin-top: 1em;
+}
+
+#hero button:hover {
+    background-color: #ff2323;
+    transform: scale(1.05);
+}
+
+#hero button a {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero .special_skills {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translateY(30px) translateX(30px);
+
+    background-color: rgba(255,255,255, 0.05);
+    backdrop-filter: blur(10px) saturate(70%);
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    width: 170px;
+    border: 1px solid #929292;
+}
+
+
+@media screen and (max-width: 960px) {
+    #hero .flex-hero {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #hero .flex-hero figure {
+        margin-top: 5em;
+    }
+
+    #hero .flex-hero h1 {
+        font-size: 80px;
+        line-height: normal;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #hero .flex-hero {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #hero .flex-hero figure {
+        margin-top: 5em;
+    }
+
+    #hero .flex-hero h1 {
+        font-size: 80px;
+        line-height: normal;
+    }
+}

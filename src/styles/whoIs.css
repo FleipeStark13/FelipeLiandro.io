@@ -1,0 +1,17 @@
+#whoIs {
+    width: 100%;
+}
+
+#whoIs .container-who-is {
+    text-align: justify;
+    text-align-last: center;
+    max-width: 100%;
+    width: 800px;
+    margin: 0 auto;
+}
+.container-who-is h1 {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 900;
+    
+}
