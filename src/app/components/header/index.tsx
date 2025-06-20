@@ -1,4 +1,4 @@
-import '../../styles/header.css'
+import '../../../styles/header.css'
 import { Linkedin, Github } from "@deemlol/next-icons";
 export function Header() {
     return (
