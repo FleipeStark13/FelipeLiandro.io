@@ -32,6 +32,8 @@ export function Hero () {
                     <figure>
                         <Image
                             id="image-hero"
+                            width={500}
+                            height={500}
                             src={profile}
                             alt="Imagem de perifl de FElipe Liandro" />
                     </figure>
