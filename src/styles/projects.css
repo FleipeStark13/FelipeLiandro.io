@@ -37,6 +37,7 @@
 
 .projects-filter-label ul {
     display: flex;
+    flex-wrap: wrap;
     gap: 1em;
 }
 
@@ -178,5 +179,10 @@
     .index-bar ul{
         align-items: center;
         justify-content: center;
+    }
+
+    .projects-filter-label {
+        border-radius: 5px;
+        padding: 20px 5px;
     }
 }

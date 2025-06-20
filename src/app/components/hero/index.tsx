@@ -21,7 +21,7 @@ export function Hero () {
                     </h1>
 
                     <button>
-                        <a href="#who_is">
+                        <a href="#about">
                             QUEM É FELIPE LIANDRO
                             <Link size={24} color="#262626" />
                         </a>

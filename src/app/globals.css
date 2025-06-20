@@ -28,13 +28,13 @@ section {
 
 @media screen and (max-width: 960px) {
   section {
-    margin: 8em;
+    margin: 5px;
   }
 }
 
 @media screen and (max-width: 1200px) {
   section {
-    margin: 5em;
+    margin: 10px;
   }
 }
 

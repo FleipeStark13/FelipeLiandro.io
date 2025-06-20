@@ -34,4 +34,7 @@ nav ul li:hover {
     nav ul {
         display: none;
     }
+    .contact-label-changer ul {
+        border-radius: 10px;
+    }
 }
