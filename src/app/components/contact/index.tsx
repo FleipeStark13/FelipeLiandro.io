@@ -1,5 +1,5 @@
 'use client'
-import { CellText } from "components/cell_text"
+import { CellText } from "app/components/cell_text"
 import { useState } from "react"
 import { contatos } from "./contacts";
 import '../../styles/contact.css'

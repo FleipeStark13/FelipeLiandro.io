@@ -1,8 +1,8 @@
-import { Hero } from "components/hero"
-import { WhoIs } from "components/who_is"
-import { Languages } from "components/languages"
-import { Projects } from "components/projects"
-import { Contact } from "components/contact"
+import { Hero } from "app/components/hero"
+import { WhoIs } from "app/components/who_is"
+import { Languages } from "app/components/languages"
+import { Projects } from "app/components/projects"
+import { Contact } from "app/components/contact"
 export default function Page() {
   return (
     <div>

@@ -1,4 +1,4 @@
-import { CellText } from "components/cell_text"
+import { CellText } from "app/components/cell_text"
 import '../../styles/whoIs.css'
 export function WhoIs () {
     return (

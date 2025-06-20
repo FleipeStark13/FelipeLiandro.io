@@ -1,5 +1,5 @@
 import { LANGS_LIST } from "./langs";
-import { CellText } from "components/cell_text";
+import { CellText } from "app/components/cell_text";
 import Image from "next/image";
 
 import '../../styles/languages.css'
