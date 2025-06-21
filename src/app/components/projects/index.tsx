@@ -155,9 +155,17 @@ export function Projects () {
                                         >
                                             <p className="item-indexer">{index + 1}</p>
                                             <div className="content-filter-item">
-                                                <h1> {project.project_name} </h1>
-                                                <p> {project.project_description} </p>
-                                                <a href={project.project_link}>Link do projeto</a>
+                                                <h1>{
+							project.project_name != '' ? project.project_name : 'Ainda não há projetos...'
+						}</h1>
+                                                <p>{
+							project.project_description != '' ? project.project_description : 'Projeto sem descrição...'
+						}</p>
+                                                <a href={
+							project.project_link != '' ? project.project_link : '#'
+						}>{
+							project.project_link != '' ? project.project_link : 'Link inválido.'
+						}</a>
                                             </div>
                                         </div>
                                     )
@@ -195,11 +203,9 @@ export function Projects () {
                     </div>
                     <div className="projects-right-side">
                         <div className="container-project-details">
-
-                            <figure>
-                                <img src="https://images.ctfassets.net/8aevphvgewt8/5kQRGLt3dEgZqraqssC3kL/368efb01e151493475985a0e194abfff/codespaces-river-breakout.webp" alt="" />
-                            </figure>
-
+			    <figure>
+			    	<img src='https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg' />
+			    </figure>
                             <h1>
                                 {projects[activeProject].project_name}
                             </h1>

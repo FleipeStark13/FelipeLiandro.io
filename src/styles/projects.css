@@ -149,13 +149,17 @@
 
 .container-project-details figure {
     width: 100%;
-    height: 450px;
+    height: 250px;
     border-radius: 20px;
     margin: 0 auto;
+    margin-bottom: 2em;
+    border: 1px solid #303030;
 }
 
 .container-project-details img {
     width: 100%;
+    filter: saturate(0%);
+    opacity: .5;
     border-radius: inherit;
     height: 100%;
     object-fit: cover;

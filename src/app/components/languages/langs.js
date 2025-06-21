@@ -28,7 +28,7 @@ export const LANGS_LIST = [
             "MongoDb",
             "MySQL",
         ],
-        description: "Não vamos falar que domino, mas já trabalhei com alguns banco de dados SQL como:  MongoDB e MySQL para estruturar dados com eficiência, mantendo a consistência e integridade das informações nos meus projetos incríveis, durante essa jornada não podia faltar é claro...",
+        description: "Não vamos falar que domino, mas já trabalhei com alguns banco de dados SQL como: MySQL para estruturar dados com eficiência, e NoSQL como MongoDB, mantendo a consistência e integridade das informações nos meus projetos incríveis, durante essa jornada não podia faltar é claro...",
         image_link: "/imgs/mongo.png"
     },
 
