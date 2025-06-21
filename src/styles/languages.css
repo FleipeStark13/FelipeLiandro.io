@@ -17,10 +17,11 @@
 }
 
 .lang-card {
-    border: 1px solid #3f3f3f;
+    border: 1px solid;
+    border-color: var(--lang-card-border-dark);
     max-width: 450px;
     width: 100%;
-    background-color: #242424;
+    background-color: var(--lang-card-background-dark);
     box-shadow: 0 10px 5px rgba(0,0,0,0.5);
     border-radius: 20px;
     padding: 25px 15px;
@@ -46,10 +47,11 @@
 }
 
 .lang-card-label p {
-    border: 1px solid #02d73b;
-    background-color: #02d73b16;
+    border: 1px solid;
+    border-color: var(--lang-card-label-green);
+    background-color: var(--lang-card-label-background);
     padding: 5px 15px;
-    color: #02d73b;
+    color: var(--lang-card-label-green);
     display: flex;
     align-items: center;
     border-radius: 5px;
@@ -76,20 +78,21 @@
 }
 
 .lang-card-name {
-    border: 1px solid #5e5e5d;
+    border: 1px solid;
+    border-color: var(--lang-card-name-border-dark);
     width: fit-content;
     padding: 5px 10px;
     border-radius: 5px;
     font-weight: 900;
     font-size: 12px;
-    color: #868686;
+    color: var(--lang-card-name-text-dark);
     background-color: transparent;
 }
 
 .lang-card button {
     width: 100%;
-    background-color: #DDDDDD;
-    color: #242424;
+    background-color: var(--lang-card-name-button-background-dark);
+    color: var(--lang-card-name-button-text-dark);
     font-weight: 400;
     outline: none;
     border: none;
@@ -99,7 +102,7 @@
 
 .lang-card button:hover {
     transform: scale(1.02);
-    background-color: #b3b3b3ee;
+    background-color: var(--lang-card-name-button-background-hover-dark);
 }
 
 

@@ -46,16 +46,16 @@
 }
 
 #hero button {
-    background-color: #FB5050;
+    background-color: var(--hero-red-main);
     padding: 10px;
     border-radius: 10px;
-    color: #262626;
+    color: var(--hero-red-darker);
     font-weight: 600;
     margin-top: 1em;
 }
 
 #hero button:hover {
-    background-color: #ff2323;
+    background-color: var(--hero-red-hover);
     transform: scale(1.05);
 }
 

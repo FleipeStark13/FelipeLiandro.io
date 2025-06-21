@@ -3,8 +3,53 @@
 :root {
   --background: #171717;
   --foreground: #c0c0c0;
-}
 
+  --cell-red-text: #ff402f;
+  --cell-gray-border-dark: #4a4a4a;
+  --cell-gray-border-light: #2a2a2a;
+
+  --contact-gray-01-dark: rgb(255,255,255);
+  --contact-gray-02-dark: #232323;
+  --contact-gray-03-dark: #555555;
+  --contact-gray-04-dark: #1a1a1a1a;
+  --contact-gray-05-dark-actived: #c5c5c5c5;
+
+  --header-text-color-dark: #c0c0c0;
+  --header-text-hover-color-dark: #7e7e7e;
+  --header-border-bottom-dark: #363636;
+
+  --hero-figure-border-color-dark: #626262;
+  --hero-red-main: #FB5050;
+  --hero-red-darker: #262626;
+  --hero-red-hover: #ff2323;
+  --hero-left-side-h1-dark: #c0c0c0;
+
+  --lang-card-border-dark: #3f3f3f;
+  --lang-card-background-dark: #242424;
+  --lang-card-label-green: #02d73b;
+  --lang-card-label-background: #02d73b16;
+  --lang-card-name-border-dark: #5e5e5d;
+  --lang-card-name-text-dark: #868686;
+  --lang-card-name-button-background-dark: #DDDDDD;
+  --lang-card-name-button-text-dark: #242424;
+  --lang-card-name-button-background-hover-dark: #b3b3b3ee;
+
+  --projects-filter-label-background-dark: #191919;
+  --projects-filter-label-border-dark: #3f3f3f;
+  --projects-filter-label-button-border-dark: #4e4e4d;
+  --projects-filter-label-background-dark: #181818;
+  --projects-filter-label-text-dark: #585555;
+  --projects-filter-item-text-active-dark: #726f6f;
+  --projects-filter-item-text-background-dark: #dedede;
+  --projects-filter-item-border-dark: #404040;
+  --projects-filter-item-h1-active: #353535;
+  --projects-filter-item-indexer-text-active-dark: #0d0d0d;
+  --projects-container-details-background-dark: #1f1f1f;
+  --projects-container-details-border-dark: #191919;
+  --projects-container-details-text-dark: #585555;
+  --projects-details-figure-border-dark: #303030;
+  --projects-filter-label-button-actived-dark: #191919;
+}
 * {
   box-sizing: border-box;
   transition: 150ms linear;

@@ -1,6 +1,5 @@
 .container-contact {
     text-align: center;
-
 }
 .container-contact h1 {
     font-size: 50px;
@@ -18,9 +17,9 @@
 }
 .contact-label-card a {
     padding: 10px 3em;
-    color: #737373;
+    color: var(--contact-gray-01-dark);
     border-radius: 20px;
-    background-color: #030303;
+    background-color: var(--contact-gray-02-dark);
 }
 
 .contact-label-changer {
@@ -32,22 +31,26 @@
     align-items: center;
     justify-content: center;
     gap: 2em;
-    background-color: #232323;
+    background-color: var(--contact-gray-02-dark);
     width: fit-content;
     margin: 0 auto;
     padding: 10px;
     border-radius: 50px;
-    border: 1px solid #555555;
+    border: 1px solid;
+    border-color: var(--contact-gray-03-dark);
 }
 
 .contact-label-changer ul li {
-    background-color: #1a1a1a;
-    border: 1px solid #555555;
+    background-color: var(--contact-gray-04-dark);
+    border: 1px solid;
+    border-color: var(--contact-gray-02-dark);
     padding: 5px 1em;
     border-radius: 50px;
 }
 
 .contact-label-changer ul li.lactived {
-    background-color: #c5c5c5;
-    color: #1a1a1a;
+    background-color: var(--contact-gray-01-dark);
+    color: var(--contact-gray-02-dark);
 }
+
+

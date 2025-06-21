@@ -1,15 +1,16 @@
-:root {
-    --cell-red-text: #ff402f;
-    --cell-gray-border: #4a4a4a;
-}
-
 #cellText {
     width: fit-content;
     padding: 2px 20px;
     border-radius: 20px;
     font-weight: 900;
-    border: 1px solid var(--cell-gray-border);
+
+    border: 1px solid var(--cell-gray-border-dark);
     color: var(--cell-red-text);
+
     text-transform: uppercase;
     margin: 0 auto;
+}
+
+#cellText.light {
+	border-color: var(--cell-gray-border-light);
 }
